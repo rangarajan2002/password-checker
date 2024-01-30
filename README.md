@@ -7,7 +7,3 @@ This application allows you to check if your account has been breached and crede
 1. Clone the github project.
 2. `cd pwnd_checker`
 2. Run `python setup.py install`
-# pwnd_checker usage:
-```sh
-root@ubuntu:/home/github/passwd_checker# pwnd_checker --help
-Usage: pwnd_checker [OPTIONS]
