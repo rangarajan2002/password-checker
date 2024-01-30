@@ -11,13 +11,3 @@ This application allows you to check if your account has been breached and crede
 ```sh
 root@ubuntu:/home/github/passwd_checker# pwnd_checker --help
 Usage: pwnd_checker [OPTIONS]
-
-Options:
-  --pwnd_account TEXT  Checks if account has been breached
-  --pwnd_website TEXT  Checks if domain has been breached, e.g: adobe
-  --passwd TEXT        Checks if password has been breached(will prompt if not
-                       supplied)
-  --help               Show this message and exit.
-```
-
-**P.S: Thanks to [Troy Hunt](https://www.troyhunt.com/) for [pwned apis](https://haveibeenpwned.com/API/v2) this application leverages these apis.**
